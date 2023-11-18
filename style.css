@@ -1,0 +1,713 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+
+main {
+  background: linear-gradient(to left, rgb(222, 253, 216) 50%, rgb(252, 252, 252) 50%) right;
+  background-size: 200%;
+  transition: 1s ease-in;
+}
+
+main:hover {
+  background-position: left;
+  box-shadow: inset 2px 2px 8px rgb(102, 102, 102);
+}
+
+
+.samePro {
+  display: flex;
+}
+
+.same-btn-pro {
+  border-radius: 20px;
+  color: white;
+  padding: 8px 18px;
+  background-color: rgb(0, 132, 255);
+}
+
+body{
+  max-width: 1364px;
+  margin: auto;
+}
+
+/* this is header section --------------------------------------------------------------- */
+
+.header-section {
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+.navbar {
+  gap: 50px;
+  list-style: none;
+  font-weight: bold;
+}
+
+a {
+  color: gray;
+  display: flex;
+  text-decoration: none;
+}
+
+.wrapper-first {
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.R {
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(0, 132, 255);
+}
+
+.stone{
+    padding: 0px 5px;
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    border-top-right-radius: 0px;
+}
+
+/* this is first section section --------------------------------------------------------------- */
+
+.sec-first-img span img {
+  width: 100%;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.sec-first-heading {
+  margin-top: 20px;
+  width: 30%;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sec-first-heading h1 {
+  color: rgb(78, 78, 78);
+  font-size: 34px;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.sec-first-heading p {
+  color: rgb(131, 131, 131);
+  font-size: 14px;
+}
+
+.sec-first-btn {
+  padding-top: 14px;
+  gap: 20px;
+  align-items: center;
+}
+
+.sec-first-btn a,img{
+  cursor: pointer;
+}
+
+.circle{
+    padding: 52px 59px;
+    border-radius: 50%;
+    background-color:rgb(0, 132, 255);
+}
+
+
+
+.sec-first-img{
+    position: relative;
+}
+
+.group-of-img{
+    position: absolute;
+    bottom: 33px;
+    right: 250px;
+}
+
+.small-circle{
+    position: relative;
+    top: 32px;
+    right: 40px;
+    padding: 14px 21px;
+    border-radius: 50%;
+    background-color:rgb(255, 255, 255);
+}
+
+
+
+.dot-background {
+  top: -100px;
+  right: 2px;
+  width: 85px;
+  height: 100px;
+  position: absolute;
+  background-image: radial-gradient(white 20%, transparent 5%);
+  background-size: 15px 15px;
+}
+
+
+
+
+/* this is second section section --------------------------------------------------------------- */
+
+
+.sec-second,sec-thired{
+  margin: 150px auto;
+}
+
+.select-section{
+  border-radius: 50px;
+  padding: 3px 30px;
+    width: 70%;
+    margin: auto;
+    border: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: gray;
+    outline: none;
+  }
+
+
+  select{
+    font-size: 12px;
+      border: none;
+      outline: none;
+      width: 150px;
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-indent: 1px;
+      text-overflow: '';
+      background-color: white;
+      color: rgb(156, 156, 156);
+      cursor: pointer;
+  }
+
+  label{
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .select-section-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 12PX;
+    gap: 20px;
+    /* padding: 10px 8px; */
+    width: 300px;
+    color: rgb(94, 94, 94);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .select-section-btn{
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 52px;
+    background-color: whitesmoke;
+    background-color: rgb(0, 132, 255);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+
+
+  /* this is second section section --------------------------------------------------------------- */
+
+.wrapper-thired{
+  width: 80%;
+  margin: 150px auto;
+  padding: 20px 0px;
+}
+
+
+  .sec-thired-small-circle{
+    position: relative;
+    top: 140px;
+    right: 800px;
+    padding: 18px 25px;
+    border-radius: 50%;
+    background-color:rgb(0, 132, 255);
+  }
+
+  .sec-thired-img span img{
+  width: 90%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  }
+
+  .sec-thired-heading{
+    color: rgb(78, 78, 78);
+    width: 70%;
+    padding: 0px 50px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sec-thired-heading h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .sec-thired-heading p{
+    font-size: 13px;
+  }
+
+
+  /* this is section four start here---------------------------->>>> */
+
+
+
+  .section-four{
+    width: 100%;
+    margin: 150px auto;
+    overflow: hidden;
+  }
+  
+  .sec-four-div{
+    width: 80%;
+    gap: 25px;
+    margin: 200px auto;
+  }
+
+
+  .sec-four-block{
+    background-color: whitesmoke;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .sec-four-block h4{
+    color: rgb(51, 51, 51);
+    margin-bottom: 5px;
+  }
+
+  .sec-four-block p{
+    font-size: 11px;
+    color: gray;
+  }
+
+  .sec-four-block div img{
+    width: 10%;
+  }
+
+
+  .section-four-div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .Home-Card{
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+    background-color: white;
+    color: rgb(81, 81, 81);
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 40px;
+  }
+  
+  
+  .Home-Card div img{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 280px;
+    
+  }
+  
+  .place-icon-section{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .icon-section{
+   display: flex;
+   gap: 15px;
+   font-weight: bolder;
+  }
+  
+  div.icon-section span img{
+    width: 18px;
+  }
+  
+  .place-location span{
+    font-size: 10px;
+  }
+  
+  span.number{
+    font-size: 12px;
+  }
+  
+  .icon-number{
+  display: flex;
+  align-items: center;  
+  }
+  
+  .icon-number span{
+    padding: 0px 3px;
+  }
+  
+
+
+  /* section five-------------------------------------------->>>>>>>>>>>> */
+  
+  .section-five-parent{
+    width: 35%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 13px;
+  }
+  
+  .section-five-parent p{
+    line-height: 20px;
+    text-align: center;
+    color: rgb(87, 87, 87);
+    font-size: 14px;
+  }
+
+  .section-five-parent p.sectiion-five-heading{
+    line-height: 25px;
+    text-align: center;
+    color: rgb(0, 132, 255);
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .section-five-parent h2{
+    font-size: 35px;
+    color: rgb(82, 81, 81);
+  }
+  
+  
+  
+  
+  /* section-6 is here starting----------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+  
+  .section-six{
+    margin: 100px auto;
+    width: 60%;
+  }
+  
+  .section-six-parent{
+    display: flex;
+    gap: 50px;  
+  }
+  
+  .sction-six-card{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding: 30px 10px;
+  }
+
+  .sction-six-card img{
+    width: 20px;
+  }
+  
+  .card-2{
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: white;
+  }
+
+  .sction-six-card h3{
+    color: rgb(49, 49, 49);
+  }
+  
+  .sction-six-card P{
+    font-size: 12px;
+    color: rgb(82, 81, 81);
+    text-align: center;
+  }
+  
+
+
+/* copy of four section here-------------------------->>>>>  */
+
+.copy-of-four-section{
+  width: 80%;
+  margin: auto;
+}
+
+.section-four-div-copy{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+
+/* this is section seven here -------------------->>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.section-seven{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+.section-seven div a {
+  color: white;
+}
+
+
+
+/* this is first section copy here-----------------------------------  */
+
+.sec-first-copy{
+  width: 60%;
+  margin: auto;
+}
+
+
+.first-section-copy span img{
+ width: 85%;
+ border-top-right-radius: 50%;
+ border-top-left-radius: 50%;
+ border-bottom-left-radius: 50%;
+
+}
+
+.wrapper-first-copy{
+  display: flex;
+  gap: 10px;
+  margin: 100px auto;
+  padding: 20px 0px;
+}
+
+
+
+.double-quote-img{
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeRGC4eet0LR_C74K_FvyKorgNybzYuTYrHjPntxUqy4zhur3qRM7TtW75cmPdiIonsJA&usqp=CAU');
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+
+.first-section-copy{
+  position: relative;
+}
+
+
+.circle-copy{
+  position: relative;
+  top: -250px;
+  left: 180px;
+  padding: 23px 31px;
+  border-radius: 50%;
+  background-color:rgb(0, 132, 255);
+}
+
+
+.sec-first-heading-copy p.pera{
+  color: black;
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+.Developer-name-heading{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+.word {
+  color: rgb(0, 0, 0);
+}
+
+h1.Heading{
+  color: rgb(122, 122, 122);
+}
+
+
+.dot-background-copy{
+  top: -30px;
+  right: 50px;
+  width: 85px;
+  height: 100px;
+  position: absolute;
+  background-image: radial-gradient(white 20%, transparent 5%);
+  background-size: 15px 15px;
+}
+  
+
+/* this is eight section--------------------------->>>>>>>>>>>> */
+
+.section-eight-div{
+  color: rgb(63, 63, 63);
+  margin: 140px auto;
+  font-size: 32px;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bolder;
+}
+
+
+
+/* this is nine section complete----------------------------->>>>>>>>>>>> */
+
+.section-nine{
+  margin-bottom: 50px;
+  width: 70%;
+  margin: 150px auto;
+}
+
+.select-section{
+  padding: 10px 20px;
+ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-Type{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: rgb(78, 78, 78);
+}
+
+.search-section{
+  background-color:rgb(80, 170, 255);
+  color: white;
+  padding: 18px 50px;
+  border-radius: 50px;
+}
+  
+  /* this is footer section--------------------------->> */
+  
+  .Footer-Div {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(0, 132, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+  }
+  
+  div.Footer-Div li {
+    list-style: none;
+    padding: 8px 0px;
+  }
+  
+  div.Footer-Div li a {
+    color: rgb(202, 201, 201);
+    font-size: 13px;
+  }
+  
+  div.Footer-Div p {
+    color: rgb(250, 250, 250);
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .social-icon {
+    margin: 20px auto;
+    display: flex;
+    column-gap: 25px;
+  }
+  
+  .searchBox {
+    padding: 10px 30px;
+    text-align: center;
+  }
+ 
+
+  
+  .Four-col p a{
+   color: rgb(250, 250, 250);
+   font-size: 13px;
+  }
+
+.Footer-Div p.Rstate{
+  font-size: 31px;
+  font-weight: bolder;
+}
+
+.Footer-Div div p{
+  font-size: 14.5px;
+  font-weight: bolder;
+  padding: 13px;
+  border-bottom: 1px solid rgb(177, 177, 177);
+  margin-bottom: 20px;
+}
+   
+
+  /* this is lost foooter section------------------------------------------------------------------------  */
+  
+.footer-section{
+  padding-top: 30px;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(0, 132, 255);
+  border-top-left-radius:200px ;
+}
+  
+  .footer-last-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+  
+  .footer-last-section-nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    color: white;
+    gap: 50px;
+    font-size: 13px;
+  }
+
+  .footer-last-section-nav li a{
+  color: white;
+  }
+  
+  .copy-Right-section {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+  }
+  
+  
+  
